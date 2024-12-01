@@ -7,4 +7,4 @@ paste-inputs:
 	wl-paste > inputs.txt
 
 run:
-	dotnet run
+	dotnet run | tee last-output.txt
