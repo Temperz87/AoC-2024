@@ -1,4 +1,7 @@
+// Puzzle opened in 0:001
 public static class Day1 {  // Oh no this is just like java...
+    // Completed in 5:50, I was taking my sweet time reading and actually tested on the example input
+    // Rank 2460
     public static void part1() {
         string[] input = InputGetter.GetStringInputs();
         List<int> first = new();
@@ -18,6 +21,8 @@ public static class Day1 {  // Oh no this is just like java...
         Debug.Answer(sum);
     }
 
+    // Completed in 13:10, I used a hashmap initially then realized you have to consider duplicates
+    // Rank 3726
     public static void part2() {
         string[] input = InputGetter.GetStringInputs();
         int[][] first = new int[input.Length][];
