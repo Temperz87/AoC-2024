@@ -15,7 +15,7 @@ public static class Day1 {  // Oh no this is just like java...
         second.Sort();
 
         long sum = 0;
-        for (int i =0 ; i < first.Count; i++) {
+        for (int i = 0; i < first.Count; i++) {
             sum += Math.Abs(first[i] - second[i]);
         }
         Debug.Answer(sum);

@@ -1,1 +1,1 @@
-Day1.part2();
+Day2.part1();
