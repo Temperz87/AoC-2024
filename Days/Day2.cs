@@ -2,7 +2,7 @@
 // Tossing 504's and 500's and such :(
 public static class Day2 {
     // Completed in 13:10, I could've gone faster but my Intellisense broke for some reason
-    // Rank 3129
+    // Rank 3726
     public static void part1() {
         string[] inputs = InputGetter.GetStringInputs();
         long safe = 0;
@@ -33,7 +33,7 @@ public static class Day2 {
     }
     
     // Completed in 16:06, I had a skill issue where I tried "remove" then "Remove" then realized I needed "Remove At"
-    // Rank 3726
+    // Rank 2125
     public static void part2() {
         string[] inputs = InputGetter.GetStringInputs();
         long safe = 0;
