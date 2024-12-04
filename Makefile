@@ -5,7 +5,11 @@ clean:
 	rm -rf obj
 
 grab-input:
-	python3 GetInput.py 2 > inputs.txt
+	python3 GetInput.py 4 > inputs.txt
+
+paste-inputs:
+	wl-paste > inputs.txt
 
 run:
 	dotnet run | tee last-output.txt
+
