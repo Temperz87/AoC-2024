@@ -9,7 +9,6 @@ public static class Day4 {
         return line >= 0 && line < lines.Length && checkstr(lines[line], idx, c);
     }
 
-
     // Completed in 24:36 because I did idx > 0 and line > 0 instead of >= 0 in my helper functions
     // Rank 5097, my lowest one this year :(
     public static void part1() {
